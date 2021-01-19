@@ -1,0 +1,39 @@
+body {
+    background: url(pic.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.keys {
+    display: flex;
+
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #04302180;
+    margin-right: 15px;
+    border: 4px solid #293f24;
+    border-radius: 5px;
+    padding: 5px;
+}
+.playing {
+    background: #1b1c1a;
+    color: orangered;
+    border: 4px solid red;
+}
+kbd {
+    color: #f8e1d1;
+    font-size: 40px;
+}
+.sound {
+    font-size: 20px;
+    color: #fff;
+}
